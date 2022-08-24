@@ -1,0 +1,180 @@
+/* overall page settings */
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  padding: 10px 30px;
+  background-color: black;
+}
+
+/* header styles (page title, navbar) */
+
+header {
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr; /* fr = fraction. 5 + 1 + 1 = 7, so 5fr is 5/7 of the page, and 1fr is 1/7 of the page */
+  width: 100%;
+  margin: 0 auto 20px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 0px;
+}
+
+.navChoice {
+  padding: 35px;
+  padding-left: 0px;
+  text-decoration: none;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: overline;
+  color: #EEEDE7;
+}
+
+.active {
+  text-decoration: overline;
+  text-decoration-thickness: 3px;
+  font-weight: bold;
+}
+
+/* styles for the art grid */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  height: 600px;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.item {
+  background-color: white;
+}
+
+/* div item placements */
+
+.one {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.twelve {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+.eleven {
+  grid-row-start: 3;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.two {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.fifteen {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+/* div item background colors */
+
+.blue {
+  background-color: rgb(53, 42, 209);
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: rgb(255, 217, 0);
+}
+
+/* background images for exhibit B */
+
+.ocean {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuhdo0NSVq8SUbjq-vB8tJef-UbXICDKCgelG8CmlRgFikxDVPJS9q7N_wok2A4H5AadA&usqp=CAU);
+}
+.light
+{
+  background-image: url(https://i.pinimg.com/originals/fa/3d/0b/fa3d0b0b27160284c473bace6bb135b1.jpg);
+}
+.neon
+{
+  background-image: url(https://i.pinimg.com/originals/fd/3f/d7/fd3fd7114881a67c5ea01ce3f1ecd93d.png);
+}
+.collage
+{
+  background-image: url(https://i.pinimg.com/474x/0d/fc/fd/0dfcfd1fe53bfbef918d4ad492feea2c.jpg);
+}
+.fence
+{
+  background-image: url(https://data.whicdn.com/images/268931237/original.jpg);
+}
+.rose
+{
+  background-image: url(https://p.favim.com/orig/2018/08/19/red-aesthetic-red-aesthetics-Favim.com-6152949.jpg);
+}
+.sky
+{
+  background-image: url(https://everydaypower.com/wp-content/uploads/2020/06/50-Yellow-Quotes-for-a-Happy-Aesthetic-1000x600.jpg);
+}
+.sunset {
+  background-image: url(https://data.whicdn.com/images/354957436/original.jpg?t=1619108461);
+  background-size: cover;
+}
+
+.flower {
+  background-image: url(https://www.wallpapersdsc.net/wp-content/uploads/2016/09/White-Flower-Wallpapers-HD.jpeg);
+  background-size: cover;
+}
+.water
+{
+  background-image: url(https://static.wikia.nocookie.net/aesthetics/images/8/80/White_brick_background.jpg/revision/latest?cb=20201101203249);
+}
+.paint
+{
+  background-image: url(https://cutewallpaper.org/21/aesthetic-white-background/s--white-aesthetic-Aesthetic-colors-Shades-.jpg);
+}
+.petal
+{
+  background-image: url(https://i.pinimg.com/originals/3b/5e/bd/3b5ebdcb9bc330e1898dfc1d2431e4ba.jpg);
+}
+.cave
+{
+  background-image: url(https://coolbackgrounds.io/images/backgrounds/white/white-canyon-6c5d2a4c.jpg);
+}
+.wave
+{
+  background-image: url(https://images.unsplash.com/photo-1484503793037-5c9644d6a80a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2hpdGUlMjBhZXN0aGV0aWN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+}
+.out
+{
+  background-image: url(https://images.unsplash.com/photo-1606769719749-f21e79ce9293?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHdoaXRlJTIwYWVzdGhldGljfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+}
+.house
+{
+  background-image: url(https://notapaperhouse.com/wp-content/uploads/2020/05/white-and-bright-bedroom.jpg);
+}

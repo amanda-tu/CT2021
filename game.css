@@ -1,0 +1,69 @@
+body
+{
+	background-image: url("https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2Fa1.jpg?v=1626333702079");
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed; 
+  	background-size: 100% 100%;
+}
+.but
+{
+	padding-left:600px;
+	padding-top: 160px;
+	position: absolute;
+}
+.but2
+{
+	float: left;
+	position: absolute;
+	padding-left:750px;
+	padding-top: 160px;
+}
+.button1 {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #79ABE6;
+}
+.rect1
+{
+	position: absolute;
+	float: left;
+	padding-left: 800px;
+	padding-top:500px;
+}
+.rect2
+{
+	position: absolute;
+	float: left;
+	padding-left: 800px;
+	padding-top:1050px;
+}
+.rect3
+{
+	position: absolute;
+	/*float: left;*/
+	padding-left: 500px;
+	padding-top: 50px;
+}
+.container
+{
+	position: relative;
+}
+.container2
+{
+	position: relative;
+}
+.container3
+{
+	position: relative;
+}
+.container4
+{
+	position: relative;
+}

@@ -1,0 +1,166 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  padding: 10px 30px;
+  background-color: black;
+}
+
+/* header styles (page title, navbar) */
+
+header {
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr; /* fr = fraction. 5 + 1 + 1 = 7, so 5fr is 5/7 of the page, and 1fr is 1/7 of the page */
+  width: 100%;
+  margin: 0 auto 20px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navChoice {
+  padding: 35px;
+  padding-right: 0px;
+  text-decoration: none;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: overline;
+  color: #EEEDE7;
+}
+
+.active {
+  text-decoration: overline;
+  text-decoration-thickness: 3px;
+  font-weight: bold;
+}
+/* styles for the art grid */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  height: 600px;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.item {
+  background-color: white;
+}
+
+/* div item placements */
+
+.one {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.twelve {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+.eleven {
+  grid-row-start: 3;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.two {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.three
+{
+   grid-row-start: 1;
+  grid-row-end: 5;
+}
+.fifteen {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+.eighteen
+{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+/* div item background colors */
+
+.blue {
+  background-color: #E9BBFA;
+}
+
+.red {
+  background-color: #774AAD;
+}
+
+.yellow {
+  background-color: #381463;
+}
+.city
+{
+  background-image: url(https://wallpapercave.com/wp/wp4690606.jpg);
+}
+.set
+{
+  background-image: url(https://data.whicdn.com/images/298784942/original.jpg);
+}
+.night
+{
+  background-image: url(https://i.pinimg.com/originals/10/e0/93/10e093ff9dc555f3801fff5de7735bf8.jpg);
+}
+.w
+{
+  background-image: url(https://www.enwallpaper.com/wp-content/uploads/Purple-Aesthetic-Wallpapers-Wallpaper-Cave.jpg);
+}
+.words
+{
+  background-image: url(https://i.pinimg.com/564x/1f/15/19/1f1519e79897a84a650891f7477ab0fa.jpg);
+}
+.butterfly
+{
+  background-image: url(http://cm1.narvii.com/6980/2ed2627f63bf4894c07142fde3193ad4fb59cdb6_00.jpg);
+}
+.planet
+{
+  background-image: url(https://numeralpaint.com/wp-content/uploads/2020/08/Purple-Aesthetic-Space.jpg);
+}
+.glasses
+{
+  background-image: url(https://p.favim.com/orig/2018/12/19/beautiful-purple-aesthetic-heart-shaped-glasses-Favim.com-6700151.jpg);
+}
+.cloud
+{
+  background-image: url(https://static.wikia.nocookie.net/aesthetics/images/5/5f/Running_In_The_Night_The_Superb_%2780s_Cyberpunk_Artworks_By_Daniele_Gasparini.jpg/revision/latest/scale-to-width-down/250?cb=20200801142624);
+}
+.stars
+{
+  background-image: url(https://i.imgur.com/ZaTglko.jpg);
+}
+.bulb
+{
+  background-image: url(https://i.redd.it/7m5oucb8qdf51.jpg);
+}
+.pFlower
+{
+  background-image: url(http://images6.fanpop.com/image/photos/43300000/Purple-Aesthetic-purple-43357402-720-1280.png);
+}

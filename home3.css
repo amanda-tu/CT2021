@@ -1,0 +1,44 @@
+.container
+{
+	position: relative;
+	/*z-index: 2;*/
+}
+.container2
+{
+	position: relative;
+	/*z-index: 3;*/
+}
+img
+{
+	position: absolute;
+	width: 25%;
+	padding-top: 200px;
+}
+h1
+{
+	position: absolute;
+	font-size: 25px;
+	float: left;
+	color: white;
+	padding-top: 500px;
+}
+#one
+{
+	padding-left: 365px;
+}
+#two
+{
+	padding-left: 565px;
+}
+#three
+{
+	padding-left: 765px;
+}
+#four
+{
+	padding-left: 965px;
+}
+body
+{
+	background-color: black;
+}

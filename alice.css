@@ -1,0 +1,223 @@
+*
+{
+	padding: 0;
+	margin:0;
+	box-sizing:border-box;
+}
+@import 'https://fonts.googleapis.com/css?family=Sintony';
+ * {
+	 box-sizing: border-box;
+}
+.but
+{
+	padding-left:625px;
+	padding-top: 550px;
+}
+.button1 {
+  font-family: 'Sintony', sans-serif;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: white;
+}
+body{
+	 
+	 padding: 0;
+	 margin: 0;
+	 font-family: 'Sintony', sans-serif;
+	 font-weight: 200;
+	 font-size: 13px;
+	 text-transform: uppercase;
+}
+html, body
+{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+
+}
+a
+{
+	text-decoration: none;
+	color:white;
+}
+.wrapper1
+{
+	height: 100vh;
+	overflow: hidden;
+	overflow-y:auto;
+	perspective:  300px;
+	background-image: url(https://wallpaperaccess.com/full/104956.jpg);
+	background-attachment: fixed;
+}
+.wrapper2
+{
+	height: 100vh;
+	overflow: hidden;
+	overflow-y:auto;
+	perspective:  300px;
+	/*background-color:black;*/
+	background-image: url(https://wallpaperaccess.com/full/2683869.jpg);
+	background-attachment: fixed;
+
+}
+.container
+{
+	background-color: black;
+}
+.parrallaxInfoContainer
+{
+	position: relative;
+	height: 100vh;
+	width: 100vh;
+	transform-style: preserve-3d;
+}
+.parrallaxLayer
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+/*red castle*/
+.redCastle
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2FredShadow.png?v=1626334743459);
+	background-size: cover;
+	transform: translateZ(-600px) scale(3);
+	z-index: 2;
+}
+.redShadow
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2FredCastle.png?v=1626334739762);
+	background-size: cover;
+	transform: translateZ(-525px) scale(2.75);
+	z-index: 1;
+}
+.redGrass
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2FredGrass.png?v=1626334741017);
+	background-size: cover;
+	transform: translateZ(-400px) scale(2.3333);
+	z-index: 3;
+}
+.checkerRoad
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2FcheckerRoad.png?v=1626334735565);
+	background-size: cover;
+	transform: translateZ(-250px) scale(1.83333);
+	z-index: 4;
+}
+.bush1
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2Fbush1.png?v=1626334631844);
+	background-size: cover;
+	transform: translateZ(-125px) scale(1.41);
+	z-index: 5;
+}
+.bush2
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2Fbush2.png?v=1626334633521);
+	background-size: cover;
+	transform: translateZ(-125px) scale(1.41);
+	z-index: 7;
+}
+.bush3
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2Fbush3.png?v=1626334634112);
+	background-size: cover;
+	transform: translateZ(-70px) scale(1.3);
+	z-index: 6;
+}
+.bush4
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2Fbush4.png?v=1626334635432);
+	background-size: cover;
+	transform: translateZ(-70px) scale(1.3);
+	z-index: 9;
+}
+.bush5
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2Fbush5.png?v=1626334637518);
+	background-size: cover;
+	transform: translateZ(-65px) scale(1.2);
+	z-index: 8;
+}
+.smallRose
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2FsmallRose.png?v=1626334748524);
+	background-size: cover;
+	transform: translateZ(-65px) scale(1.2);
+	z-index: 10;
+}
+/*white castle*/
+.castleShadow
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2FcastleShadow.png?v=1626335023262);
+	background-size: cover;
+	transform: translateZ(-600px) scale(3);
+	z-index: 1;
+}
+.castle
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2Fcastle.png?v=1626335009349);
+	background-size: cover;
+	transform: translateZ(-575px) scale(2.75);
+	z-index: 2;
+}
+.grass
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2Fgrass.png?v=1626335100077);
+	background-size: cover;
+	transform: translateZ(-400px) scale(2.3333);
+	z-index: 3;
+}
+.road
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2Froad.png?v=1626335026959);
+	background-size: cover;
+	transform: translateZ(-250px) scale(1.83333);
+	z-index: 4;
+}
+.bushesOne
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2FbushesTwo.png?v=1626335003790);
+	background-size: cover;
+	transform: translateZ(-125px) scale(1.41);
+	z-index: 5;
+}
+.bushesTwo
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2FbushesOne.png?v=1626335000678);
+	background-size: cover;
+	transform: translateZ(-70px) scale(1.3);
+	z-index: 6;
+}
+.bushesThree
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2FbushesThree.png?v=1626335002002);
+	background-size: cover;
+	transform: translateZ(-65px) scale(1.2);
+	z-index: 7;
+}
+.cards
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2Fcards.png?v=1626335003846);
+	background-size: cover;
+	transform: translateZ(-20px) scale(1.1);
+	z-index: 10;
+}
+.petals
+{
+	background-image: url(https://cdn.glitch.com/140587a2-74a3-4996-897a-6b1ae6b33607%2Fpetals.png?v=1626335038443);
+	background-size: cover;
+	transform: translateZ(0px) scale(1);
+	z-index: 9;
+}

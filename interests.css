@@ -1,0 +1,122 @@
+@import 'https://fonts.googleapis.com/css?family=Sintony';
+ * {
+	 box-sizing: border-box;
+}
+ body {
+	 background: #222;
+	 padding: 0;
+	 margin: 0;
+	 font-family: 'Sintony', sans-serif;
+	 font-weight: 300;
+	 font-size: 13px;
+	 text-transform: uppercase;
+}
+.but
+{
+	padding-left:25px;
+	padding-top: 50px;
+}
+.button1 {
+  font-family: 'Sintony', sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: black;
+}
+ .section {
+	 text-align: center;
+	 position: absolute;
+	 width: 100%;
+	 height: 100vh;
+	 letter-spacing: 4px;
+	 overflow: hidden;
+	 clip: rect(0, auto, auto, 0);
+}
+ .section .fixed {
+	 overflow: hidden;
+	 position: fixed;
+	 top: 50%;
+	 left: 50%;
+}
+ .section .white {
+	 color: #fff;
+	 /*background-image: url("https://cutewallpaper.org/21/beautiful-anime-scenery-wallpaper/Pastel-Anime-Background-1920x1080-Spiritedmusepress.com.jpg");*/
+}
+ .section:nth-child(1) {
+	 /*background-color: #fff;*/
+	 background-image: url("https://i.pinimg.com/originals/5e/42/a5/5e42a5b07f65d83d718c087b0e6a710f.png");
+	 color: #000;
+	 top: 0;
+	 z-index: 1;
+}
+ .section:nth-child(1) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(2) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	 /*background-color: #c2850a;*/
+	 background-image: url("https://www.roche.com/dam/jcr:d963dfee-877b-475b-b29e-47f421c99225/en/quantum-computing-1920.jpg");
+	 color: #fff;
+	 top: 100vh;
+	 z-index: 2;
+}
+ .section:nth-child(2) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(3) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	/* background-color: #0a0ac2;*/
+	background-image: url("https://news.uchicago.edu/sites/default/files/styles/full_width/public/images/2018-09/chileanvolcanosky_fairbairn_1682.jpg?itok=eTtZ7cUo");
+	 color: #fff;
+	 top: 200vh;
+	 z-index: 3;
+}
+ .section:nth-child(3) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(4) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	/* background-color: #0a0a0a;*/
+	background-image: url("https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/worldmentalhealthday_16x9.jpg?itok=Gnt-04kG");
+	 color: #fff;
+	 top: 300vh;
+	 z-index: 4;
+}
+ .section:nth-child(4) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(5) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	 background-color: black;
+	 /*background-image: url("https://i.pinimg.com/originals/5e/42/a5/5e42a5b07f65d83d718c087b0e6a710f.png");*/
+	 color: #fff;
+	 top: 400vh;
+	 z-index: 5;
+}
+ .section:nth-child(5) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(6) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	 background-color: #0a0a0a;
+	 color: #fff;
+	 top: 500vh;
+	 z-index: 6;
+}
+ .section:nth-child(6) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ 
+ .oop {
+	 position: relative;
+	 z-index: auto;
+	 height: 10px;
+	 background: linear-gradient(141deg, #48ded4 0%, #a026bf 51%, #e82c75 75%);
+}
+ 
